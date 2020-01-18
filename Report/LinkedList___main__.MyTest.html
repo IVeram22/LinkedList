@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Linked List Tc</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">Linked List Tc</h2>
+                <p class='attribute'><strong>Start Time: </strong>2020-01-09 21:00:00</p>
+                <p class='attribute'><strong>Duration: </strong>7 ms</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 6, Pass: 6</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>__main__.MyTest</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_create_linked_list</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p><b>Input data:</b>
+Random Length = 1<br><hr>
+Create list:<br>
+LinkedList.length = 1<br>
+<b>168 -> null</b><br><br><hr>
+LinkedList.length == Random Length, <b>Result = True</b>
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_find_intersect_method_1</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p><b>Input data:</b>
+Random Length1 = 9, Length2 = 23<br><hr>
+Create list1:<br>
+LinkedList1.length = 9<br>
+<b>293 -> 691 -> 138 -> 865 -> 997 -> 657 -> 949 -> 502 -> 748 -> null</b><br><br><hr>
+LinkedList1.length == Random Length1, <b>Result = True</b><br><hr>
+Create list2:<br>
+LinkedList2.length = 23<br>
+<b>940 -> 698 -> 496 -> 457 -> 522 -> 882 -> 918 -> 711 -> 151 -> 411 -> 251 -> 737 -> 596 -> 8 -> 843 -> 160 -> 158 -> 926 -> 277 -> 821 -> 639 -> 988 -> 53 -> null</b><br><br><hr>
+LinkedList2.length == Random Length2, <b>Result = True</b><br><hr>
+Update list 2:<br>
+List1: Node index to insert = 8<br>
+List2: Node index to change = 10<br><br>
+Insert node(748, 251)<br>
+<br>List1: <b>293 -> 691 -> 138 -> 865 -> 997 -> 657 -> 949 -> 502 -> 748 -> null</b><br><br>
+List2: <b>940 -> 698 -> 496 -> 457 -> 522 -> 882 -> 918 -> 711 -> 151 -> 411 -> 748 -> null</b><br><br><hr>
+<br>Counter = -108<br>
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_find_intersect_method_2</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p><b>Input data:</b>
+Random Length1 = 21, Length2 = 8<br><hr>
+Create list1:<br>
+LinkedList1.length = 21<br>
+<b>292 -> 774 -> 427 -> 730 -> 318 -> 197 -> 322 -> 757 -> 473 -> 707 -> 74 -> 327 -> 980 -> 561 -> 869 -> 729 -> 485 -> 461 -> 7 -> 63 -> 808 -> null</b><br><br><hr>
+LinkedList1.length == Random Length1, <b>Result = True</b><br><hr>
+Create list2:<br>
+LinkedList2.length = 8<br>
+<b>489 -> 34 -> 685 -> 114 -> 55 -> 655 -> 921 -> 913 -> null</b><br><br><hr>
+LinkedList2.length == Random Length2, <b>Result = True</b><br><hr>
+Update list 2:<br>
+List1: Node index to insert = 0<br>
+List2: Node index to change = 5<br><br>
+Insert node(292, 655)<br>
+<br>List1: <b>292 -> 774 -> 427 -> 730 -> 318 -> 197 -> 322 -> 757 -> 473 -> 707 -> 74 -> 327 -> 980 -> 561 -> 869 -> 729 -> 485 -> 461 -> 7 -> 63 -> 808 -> null</b><br><br>
+List2: <b>489 -> 34 -> 685 -> 114 -> 55 -> 292 -> 774 -> 427 -> 730 -> 318 -> 197 -> 322 -> 757 -> 473 -> 707 -> 74 -> 327 -> 980 -> 561 -> 869 -> 729 -> 485 -> 461 -> 7 -> 63 -> 808 -> null</b><br><br><hr>
+node1: 774, node2: 774
+<br>Counter = 527<br>
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_find_intersect_method_3</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p><b>Input data:</b>
+Random Length1 = 25, Length2 = 26<br><hr>
+Create list1:<br>
+LinkedList1.length = 25<br>
+<b>992 -> 582 -> 934 -> 559 -> 685 -> 189 -> 606 -> 456 -> 644 -> 238 -> 291 -> 121 -> 565 -> 559 -> 712 -> 488 -> 914 -> 430 -> 401 -> 610 -> 927 -> 650 -> 995 -> 338 -> 196 -> null</b><br><br><hr>
+LinkedList1.length == Random Length1, <b>Result = True</b><br><hr>
+Create list2:<br>
+LinkedList2.length = 26<br>
+<b>325 -> 546 -> 188 -> 649 -> 273 -> 826 -> 907 -> 336 -> 565 -> 919 -> 715 -> 515 -> 919 -> 278 -> 242 -> 63 -> 152 -> 262 -> 147 -> 504 -> 500 -> 488 -> 185 -> 978 -> 133 -> 612 -> null</b><br><br><hr>
+LinkedList2.length == Random Length2, <b>Result = True</b><br><hr>
+Update list 2:<br>
+List1: Node index to insert = 22<br>
+List2: Node index to change = 22<br><br>
+Insert node(995, 185)<br>
+<br>List1: <b>992 -> 582 -> 934 -> 559 -> 685 -> 189 -> 606 -> 456 -> 644 -> 238 -> 291 -> 121 -> 565 -> 559 -> 712 -> 488 -> 914 -> 430 -> 401 -> 610 -> 927 -> 650 -> 995 -> 338 -> 196 -> null</b><br><br>
+List2: <b>325 -> 546 -> 188 -> 649 -> 273 -> 826 -> 907 -> 336 -> 565 -> 919 -> 715 -> 515 -> 919 -> 278 -> 242 -> 63 -> 152 -> 262 -> 147 -> 504 -> 500 -> 488 -> 995 -> 338 -> 196 -> null</b><br><br><hr>
+node1: 338, node2: 338
+<br>Counter = 23<br>
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_find_intersect_method_4</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p><b>Input data:</b>
+Random Length1 = 16, Length2 = 14<br><hr>
+Create list1:<br>
+LinkedList1.length = 16<br>
+<b>267 -> 449 -> 708 -> 678 -> 453 -> 876 -> 727 -> 842 -> 682 -> 949 -> 651 -> 569 -> 60 -> 487 -> 120 -> 626 -> null</b><br><br><hr>
+LinkedList1.length == Random Length1, <b>Result = True</b><br><hr>
+Create list2:<br>
+LinkedList2.length = 14<br>
+<b>59 -> 752 -> 171 -> 521 -> 304 -> 725 -> 462 -> 343 -> 307 -> 716 -> 626 -> 548 -> 634 -> 573 -> null</b><br><br><hr>
+LinkedList2.length == Random Length2, <b>Result = True</b><br><hr>
+Update list 2:<br>
+List1: Node index to insert = 14<br>
+List2: Node index to change = 13<br><br>
+Insert node(120, 573)<br>
+<br>List1: <b>267 -> 449 -> 708 -> 678 -> 453 -> 876 -> 727 -> 842 -> 682 -> 949 -> 651 -> 569 -> 60 -> 487 -> 120 -> 626 -> null</b><br><br>
+List2: <b>59 -> 752 -> 171 -> 521 -> 304 -> 725 -> 462 -> 343 -> 307 -> 716 -> 626 -> 548 -> 634 -> 120 -> 626 -> null</b><br><br><hr>
+node1: 626, node2: 626
+<br>Counter = 14<br>
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_search_an_effective_method</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p><b>Input data:</b>
+Random Length1 = 207, Length2 = 19<br><hr>
+Create list1:<br>
+LinkedList1.length = 207<br>
+<b>91 -> 727 -> 50 -> 135 -> 793 -> 671 -> 317 -> 543 -> 674 -> 41 -> 436 -> 781 -> 615 -> 775 -> 714 -> 332 -> 217 -> 937 -> 320 -> 197 -> 40 -> 654 -> 83 -> 985 -> 718 -> 104 -> 452 -> 58 -> 758 -> 434 -> 50 -> 620 -> 726 -> 344 -> 570 -> 354 -> 147 -> 974 -> 825 -> 962 -> 424 -> 402 -> 747 -> 828 -> 250 -> 918 -> 39 -> 716 -> 350 -> 301 -> 526 -> 525 -> 460 -> 520 -> 416 -> 684 -> 870 -> 558 -> 60 -> 458 -> 798 -> 835 -> 416 -> 283 -> 149 -> 932 -> 365 -> 971 -> 687 -> 304 -> 610 -> 582 -> 367 -> 778 -> 346 -> 619 -> 394 -> 413 -> 150 -> 850 -> 543 -> 871 -> 157 -> 29 -> 63 -> 615 -> 966 -> 242 -> 486 -> 451 -> 71 -> 733 -> 469 -> 653 -> 869 -> 346 -> 893 -> 5 -> 533 -> 54 -> 917 -> 346 -> 599 -> 354 -> 45 -> 420 -> 28 -> 587 -> 203 -> 286 -> 671 -> 671 -> 661 -> 793 -> 193 -> 686 -> 20 -> 985 -> 956 -> 105 -> 845 -> 952 -> 939 -> 909 -> 726 -> 547 -> 870 -> 564 -> 412 -> 749 -> 393 -> 304 -> 804 -> 11 -> 404 -> 428 -> 279 -> 139 -> 644 -> 668 -> 373 -> 103 -> 295 -> 221 -> 86 -> 106 -> 604 -> 787 -> 298 -> 276 -> 761 -> 154 -> 457 -> 173 -> 521 -> 390 -> 661 -> 524 -> 867 -> 331 -> 941 -> 969 -> 623 -> 683 -> 875 -> 893 -> 626 -> 203 -> 907 -> 994 -> 838 -> 432 -> 865 -> 875 -> 392 -> 325 -> 928 -> 773 -> 162 -> 938 -> 575 -> 871 -> 923 -> 800 -> 13 -> 607 -> 796 -> 555 -> 946 -> 820 -> 908 -> 162 -> 122 -> 354 -> 590 -> 935 -> 243 -> 861 -> 239 -> 279 -> 262 -> 35 -> 401 -> 336 -> 842 -> 71 -> 797 -> null</b><br><br><hr>
+LinkedList1.length == Random Length1, <b>Result = True</b><br><hr>
+Create list2:<br>
+LinkedList2.length = 19<br>
+<b>786 -> 172 -> 657 -> 165 -> 587 -> 193 -> 174 -> 118 -> 462 -> 570 -> 508 -> 612 -> 461 -> 578 -> 262 -> 644 -> 812 -> 860 -> 727 -> null</b><br><br><hr>
+LinkedList2.length == Random Length2, <b>Result = True</b><br><hr>
+Update list 2:<br>
+List1: Node index to insert = 161<br>
+List2: Node index to change = 12<br><br>
+Insert node(969, 461)<br>
+<br>List1: <b>91 -> 727 -> 50 -> 135 -> 793 -> 671 -> 317 -> 543 -> 674 -> 41 -> 436 -> 781 -> 615 -> 775 -> 714 -> 332 -> 217 -> 937 -> 320 -> 197 -> 40 -> 654 -> 83 -> 985 -> 718 -> 104 -> 452 -> 58 -> 758 -> 434 -> 50 -> 620 -> 726 -> 344 -> 570 -> 354 -> 147 -> 974 -> 825 -> 962 -> 424 -> 402 -> 747 -> 828 -> 250 -> 918 -> 39 -> 716 -> 350 -> 301 -> 526 -> 525 -> 460 -> 520 -> 416 -> 684 -> 870 -> 558 -> 60 -> 458 -> 798 -> 835 -> 416 -> 283 -> 149 -> 932 -> 365 -> 971 -> 687 -> 304 -> 610 -> 582 -> 367 -> 778 -> 346 -> 619 -> 394 -> 413 -> 150 -> 850 -> 543 -> 871 -> 157 -> 29 -> 63 -> 615 -> 966 -> 242 -> 486 -> 451 -> 71 -> 733 -> 469 -> 653 -> 869 -> 346 -> 893 -> 5 -> 533 -> 54 -> 917 -> 346 -> 599 -> 354 -> 45 -> 420 -> 28 -> 587 -> 203 -> 286 -> 671 -> 671 -> 661 -> 793 -> 193 -> 686 -> 20 -> 985 -> 956 -> 105 -> 845 -> 952 -> 939 -> 909 -> 726 -> 547 -> 870 -> 564 -> 412 -> 749 -> 393 -> 304 -> 804 -> 11 -> 404 -> 428 -> 279 -> 139 -> 644 -> 668 -> 373 -> 103 -> 295 -> 221 -> 86 -> 106 -> 604 -> 787 -> 298 -> 276 -> 761 -> 154 -> 457 -> 173 -> 521 -> 390 -> 661 -> 524 -> 867 -> 331 -> 941 -> 969 -> 623 -> 683 -> 875 -> 893 -> 626 -> 203 -> 907 -> 994 -> 838 -> 432 -> 865 -> 875 -> 392 -> 325 -> 928 -> 773 -> 162 -> 938 -> 575 -> 871 -> 923 -> 800 -> 13 -> 607 -> 796 -> 555 -> 946 -> 820 -> 908 -> 162 -> 122 -> 354 -> 590 -> 935 -> 243 -> 861 -> 239 -> 279 -> 262 -> 35 -> 401 -> 336 -> 842 -> 71 -> 797 -> null</b><br><br>
+List2: <b>786 -> 172 -> 657 -> 165 -> 587 -> 193 -> 174 -> 118 -> 462 -> 570 -> 508 -> 612 -> 969 -> 623 -> 683 -> 875 -> 893 -> 626 -> 203 -> 907 -> 994 -> 838 -> 432 -> 865 -> 875 -> 392 -> 325 -> 928 -> 773 -> 162 -> 938 -> 575 -> 871 -> 923 -> 800 -> 13 -> 607 -> 796 -> 555 -> 946 -> 820 -> 908 -> 162 -> 122 -> 354 -> 590 -> 935 -> 243 -> 861 -> 239 -> 279 -> 262 -> 35 -> 401 -> 336 -> 842 -> 71 -> 797 -> null</b><br><br><hr>
+list1 length = 207<br>
+list2 length = 58<br>
+<br>Search for an effective method: <br><br>
+node1: 623, node2: 623
+Method1 = <b>9571</b><br>
+node1: 623, node2: 623
+Method2 = <b>11962</b><br>
+node1: 623, node2: 623
+Method3 = <b>369</b><br>
+node1: 623, node2: 623
+Method4 = <b>9061</b><br>
+<br>Method 3 more effective.
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 6, Pass: 6 -- Duration: 7 ms
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html
